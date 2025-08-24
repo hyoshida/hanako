@@ -6,62 +6,117 @@
 [bg  time="1000"  method="crossfade"  storage="図書室（夜・照明OFF）.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#
-夜の図書室は静まりかえっている。[p]
+三階、突き当りの女子トイレ。[p]
+ポタン…ポタン…と、どこかの蛇口から水滴が落ちる音だけがやけに大きく響いていた。[p]
+冷たいタイルを踏みしめるたび、自分の足音が不気味に反響する。[p]
+ずらりと並ぶ個室の扉。その中で、あなたの視線は一つの異様な光景に吸い寄せられた。[p]
+一番奥から、三番目。[p]
+扉の隙間から赤黒い液体が流れ出し、床に小さな血だまりを作っている。[p]
+それは紛れもなく血だった。[p]
+（……三階の女子トイレ、三番目の個室……）[p]
+あなたはその伝承をどこかで聞いたことがある。[p]
+（まさか……）[p]
+この学び舎の地縛霊の正体は、誰もが知る都市伝説の怪異――『トイレの花子さん』なのか。[p]
+（どうしようか……そんなに強力な相手だとは思わなかった）[p]
+だが、ここで引き返す選択肢はない。[p]
+どんなに強力な怨霊であろうと、あなたの使命と除霊方法は変わらない。[p]
+ごくり、と生唾を飲み込む。[p]
+あなたは震える指先を握りしめると、覚悟を決めてその扉へと歩み寄った。[p]
+そして、乾いた音を三度響かせる。[p]
+コン、コン、コン――。[p]
+「……なぁに？」[p]
+扉の向こうから聞こえたのは、鈴を転がすようで、氷のように冷たい少女の声だった。[p]
+その声に応えようと口を開くより早く、凄まじい霊圧の奔流があなたを襲う。[p]
+「ぐっ……ぁあ！？」[p]
+見えない壁に全身を殴りつけられたような衝撃。[p]
+金縛りにあったかのように指一本動かせない。[p]
 [_tb_end_text]
 
-[chara_show  name="吉野あかり"  time="3000"  wait="false"  storage="chara/1/真顔青.png"  width="203"  height="404"  left="698"  top="168"  reflect="false"  ]
+[chara_show  name="吉野あかり"  time="3000"  wait="false"  storage="chara/1/真顔青.png"  width="200"  height="400"  left="460"  top="237"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#
-本棚のせいで死角が多く、[r]なにかに見られている気配をどこにでも感じてしまう。[p]
-・・・・・・[p]
-！！[p]
-いつの間にか少女が現れ、[font color=0xff4500]こちらを見ていた！[font color=0xffffff][p]
+霞む視界の中、ゆっくりと扉が開く。[p]
+そして、あなたの前に、一人の少女が音もなく現れた。[p]
+白いブラウスに、赤い吊りスカート。切り揃えられたおかっぱ頭。[p]
+その顔立ちは人形のように整っているが、あなたを見下ろす瞳は恐ろしく冷たい。[p]
+「あなた、お祓い屋さんね」[p]
+「わたしのトイレで、なぁにしているの？」[p]
+あなたは必死に返事を考える。[p]
+答えを誤れば、あなたは簡単に殺されてしまうだろう。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene2.ks"  size="20"  text="思い切って声をかける"  target="*声をかける"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="気が付かないふりをする"  target="*基本分岐１３"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="いったん逃げる"  target="*逃げる"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  text="君を浄化しに来た"  target="*君を浄化しに来た"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  text="肝試しに来た"  target="*肝試しに来た"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  text="君と遊びに来た"  target="*君と遊びに来た"  ]
 [s  ]
-*声をかける
+*君を浄化しに来た
+
+[chara_hide  name="吉野あかり"  time="600"  wait="true"  pos_mode="true"  ]
+[chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 
 [tb_start_text mode=1 ]
-#
-なんと声をかけようか[p]
+「浄化？　あはっ、おもしろ～い」[p]
+花子さんは心底おかしいというように腹を抱えて笑う。[p]
+「そんな弱っちい霊力で、わたしをどうこうできると思ってるの？」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene2.ks"  size="20"  text="こんばんは"  target="*基本分岐１３"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  target="*基本分岐１３"  text="・・・どうも"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="押忍！！"  target="*押忍！！"  ]
+[tb_image_show  time="501"  storage="default/250601赤.png"  width="1321"  height="743"  x=""  y=""  _clickable_img=""  name="img_22"  ]
+
+[tb_start_text mode=1 ]
+嘲笑と共に霊圧が強まり、あなたの心臓に強い圧力がかかる。[p]
+まるで抗えない。圧倒的な力の差を、あなたは実感させられる。[p]
+「ねぇ、どんな気分？　自分が雑魚だって自覚した気分はどう？」[p]
+次の瞬間、あなたの意識はそこで途絶えた。[p]
+[_tb_end_text]
+
+[jump  storage="scene2.ks"  target="*死亡"  ]
+
+* 死亡
+[stopbgm  time="2000"  fadeout="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide  name="吉野あかり"  time="1000"  wait="false"  pos_mode="true"  ]
+[tb_image_hide  time="1000"  ]
+[cm  ]
+[tb_hide_message_window  ]
+[jump  storage="title_screen.ks"  target=""  ]
 [s  ]
-*押忍！！
+
+*肝試しに来た
 
 [tb_start_text mode=1 ]
-#
-元気にあいさつした。[p]
-#少女
-「・・・うるさい。」[p]
-「しんじゃえ。」[p]
+「ふ～ん。うそつき」[p]
+花子さんが鋭くあなたを見つめる。[p]
+「こんなにお祓いの道具まで持ってきといて、肝試しなわけないじゃん♡」[p]
+彼女はあなたが隠していた霊具の数々を見透かしていたようだ。[p]
+「うそつきにはおしおきが必要だよね？」[p]
 [_tb_end_text]
 
-[jump  storage="scene2.ks"  target="*したい！"  ]
-*逃げる
+[jump  storage="scene2.ks"  target="*ルート61"  ]
+
+*君と遊びに来た
 
 [tb_start_text mode=1 ]
-#
-危険を感じたので一度逃げて態勢を立て直すことにした。[p]
-・・・・・・[p]
-しかし足が全く動かない。あの幽霊のせいだろうか。[p]
-もう後には引けないようだ・・・。[p]
+「君と遊びに来た」[p]
+「……遊ぶ？　わたしと？」[p]
+花子さんは意外そうに目を丸くしたが、やがてその唇が意地悪そうに吊り上がる。[p]
+「ふぅん……？　いい度胸じゃない、お兄さん」[p]
+「でもさぁ、遊びっていうのは普通〝強い方〟が誘うものじゃない？」[p]
 [_tb_end_text]
 
-*基本分岐１３
+[jump  storage="scene2.ks"  target="*ルート61"  ]
+
+*ルート61
+
+[chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
+[chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 
 [tb_start_text mode=1 ]
-#少女
-「あ・・・」[p]
-「いきてるひと・・・だ」[p]
-「あそびにきたの？」[p]
+彼女はあなたのすぐそばに屈み込むと、冷たい指先であなたの頬をなぞった。[p]
+「雑魚は雑魚らしく、おもちゃにされるのがお似合いよ♡」[p]
+「ねぇお兄さん、わたしにどうやって遊んでほしい？」[p]
+勝ち誇った笑みを浮かべる彼女の赤い瞳が、ギラギラと輝いていた。[p]
+ここで言葉を間違えれば、待つのは死のみだ。[p]
+しかしどうやら、すぐに殺すつもりはないらしい。[p]
+ならばうまく誘導すれば、彼女を祓うこともできるかもしれない……！[p]
 [_tb_end_text]
 
 [glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="そうだよ"  target="*そうだ"  ]
