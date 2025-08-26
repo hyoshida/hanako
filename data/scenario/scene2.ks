@@ -6,6 +6,7 @@
 [bg  time="1000"  method="crossfade"  storage="図書室（夜・照明OFF）.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
+#
 三階、突き当りの女子トイレ。[p]
 ポタン…ポタン…と、どこかの蛇口から水滴が落ちる音だけがやけに大きく響いていた。[p]
 冷たいタイルを踏みしめるたび、自分の足音が不気味に反響する。[p]
@@ -24,22 +25,29 @@
 あなたは震える指先を握りしめると、覚悟を決めてその扉へと歩み寄った。[p]
 そして、乾いた音を三度響かせる。[p]
 コン、コン、コン――。[p]
+#少女
 「……なぁに？」[p]
+#
 扉の向こうから聞こえたのは、鈴を転がすようで、氷のように冷たい少女の声だった。[p]
 その声に応えようと口を開くより早く、凄まじい霊圧の奔流があなたを襲う。[p]
+#あなた
 「ぐっ……ぁあ！？」[p]
+#
 見えない壁に全身を殴りつけられたような衝撃。[p]
 金縛りにあったかのように指一本動かせない。[p]
 [_tb_end_text]
 
 [chara_show  name="吉野あかり"  time="3000"  wait="false"  storage="chara/1/真顔青.png"  width="200"  height="400"  left="460"  top="237"  reflect="false"  ]
 [tb_start_text mode=1 ]
+#
 霞む視界の中、ゆっくりと扉が開く。[p]
 そして、あなたの前に、一人の少女が音もなく現れた。[p]
 白いブラウスに、赤い吊りスカート。切り揃えられたおかっぱ頭。[p]
 その顔立ちは人形のように整っているが、あなたを見下ろす瞳は恐ろしく冷たい。[p]
+#花子さん
 「あなた、お祓い屋さんね」[p]
 「わたしのトイレで、なぁにしているの？」[p]
+#
 あなたは必死に返事を考える。[p]
 答えを誤れば、あなたは簡単に殺されてしまうだろう。[p]
 [_tb_end_text]
@@ -54,39 +62,38 @@
 [chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 
 [tb_start_text mode=1 ]
+#花子さん
 「浄化？　あはっ、おもしろ～い」[p]
+#
 花子さんは心底おかしいというように腹を抱えて笑う。[p]
+#花子さん
 「そんな弱っちい霊力で、わたしをどうこうできると思ってるの？」[p]
 [_tb_end_text]
 
 [tb_image_show  time="501"  storage="default/250601赤.png"  width="1321"  height="743"  x=""  y=""  _clickable_img=""  name="img_22"  ]
 
 [tb_start_text mode=1 ]
+#
 嘲笑と共に霊圧が強まり、あなたの心臓に強い圧力がかかる。[p]
 まるで抗えない。圧倒的な力の差を、あなたは実感させられる。[p]
+#花子さん
 「ねぇ、どんな気分？　自分が雑魚だって自覚した気分はどう？」[p]
 次の瞬間、あなたの意識はそこで途絶えた。[p]
 [_tb_end_text]
 
 [jump  storage="scene2.ks"  target="*死亡"  ]
-
-* 死亡
-[stopbgm  time="2000"  fadeout="true"  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide  name="吉野あかり"  time="1000"  wait="false"  pos_mode="true"  ]
-[tb_image_hide  time="1000"  ]
-[cm  ]
-[tb_hide_message_window  ]
-[jump  storage="title_screen.ks"  target=""  ]
-[s  ]
-
 *肝試しに来た
 
 [tb_start_text mode=1 ]
+#花子さん
 「ふ～ん。うそつき」[p]
+#
 花子さんが鋭くあなたを見つめる。[p]
+#花子さん
 「こんなにお祓いの道具まで持ってきといて、肝試しなわけないじゃん♡」[p]
+#
 彼女はあなたが隠していた霊具の数々を見透かしていたようだ。[p]
+#花子さん
 「うそつきにはおしおきが必要だよね？」[p]
 [_tb_end_text]
 
@@ -95,9 +102,11 @@
 *君と遊びに来た
 
 [tb_start_text mode=1 ]
-「君と遊びに来た」[p]
+#花子さん
 「……遊ぶ？　わたしと？」[p]
+#
 花子さんは意外そうに目を丸くしたが、やがてその唇が意地悪そうに吊り上がる。[p]
+#花子さん
 「ふぅん……？　いい度胸じゃない、お兄さん」[p]
 「でもさぁ、遊びっていうのは普通〝強い方〟が誘うものじゃない？」[p]
 [_tb_end_text]
@@ -110,79 +119,110 @@
 [chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 
 [tb_start_text mode=1 ]
+#
 彼女はあなたのすぐそばに屈み込むと、冷たい指先であなたの頬をなぞった。[p]
+#花子さん
 「雑魚は雑魚らしく、おもちゃにされるのがお似合いよ♡」[p]
 「ねぇお兄さん、わたしにどうやって遊んでほしい？」[p]
+#
 勝ち誇った笑みを浮かべる彼女の赤い瞳が、ギラギラと輝いていた。[p]
 ここで言葉を間違えれば、待つのは死のみだ。[p]
 しかしどうやら、すぐに殺すつもりはないらしい。[p]
 ならばうまく誘導すれば、彼女を祓うこともできるかもしれない……！[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="そうだよ"  target="*そうだ"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="ちがうよ"  target="*ちがう"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="Hしにきた"  target="*したい！"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="お前の裸が見たい"  target="*お前の裸が見たい"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="乱暴なことはしないでくれ"  target="*乱暴なことはしないでくれ"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="服を脱がすのだけはやめてくれ"  target="*乱暴なことはしないでくれ"  ]
 [s  ]
-*そうだ
-
-[tb_start_text mode=1 ]
-#少女
-「ふーん」[p]
-「・・・いいよ」[p]
-[_tb_end_text]
+*お前の裸が見たい
 
 [chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
 [chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#少女
-「あそんであげるね」[p]
+#花子さん
+「は？　……きっしょ。死ねば？」[p]
+#
+花子さんの顔から表情が消え、絶対零度の視線があなたを貫く。[p]
+軽蔑と嫌悪に染まったその一言が、あなたの聞く最後の言葉となった。[p]
+次の瞬間、あなたの身体は内側から破裂し、赤い染みを壁に広げた。[p]
 [_tb_end_text]
 
-[jump  storage="scene2.ks"  target="*じゃあなにするの？"  ]
-*ちがう
+[jump  storage="scene2.ks"  target="*死亡"  ]
+*乱暴なことはしないでくれ
 
 [tb_start_text mode=1 ]
-#少女
-「ちがうの？」[p]
-「つまらない」[p]
+#
+花子さんは一瞬きょとんとした後、おかしそうにクスクスと笑い出した。[p]
+#花子さん
+「ぷっ……あはは！　なにそれ、命令してるつもり？　雑魚のくせに生意気なんですけどぉ！」[p]
+#
+彼女は愉悦に顔を歪ませ、あなたの身体にのしかかってくる。[p]
+甘い匂いが鼻腔をくすぐり、冷たい指があなたの制服のボタンに触れた。[p]
+#花子さん
+「そっかそっかぁ。乱暴にされたくないんだぁ。服も脱がされたくないんだねぇ？」[p]
+#
+耳元で囁かれる、悪魔のような声。[p]
+#花子さん
+「――じゃあ、めちゃくちゃにしてあげなきゃねぇ！」[p]
+#
+抵抗できないあなたの身体を嘲笑うかのように、花子さんは舌なめずりをした。[p]
+……計画通りだ。彼女の嗜虐心は最高潮に達している。[p]
+このまま「されたくないこと」を誘導していけば、挿入までいけるかもしれない。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene2.ks"  size="20"  text="君の成仏に協力したい"  target="*成仏"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="仕事できた"  target="*しごと"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  text="その貧相な身体じゃそそられないな"  target="*その貧相な身体じゃそそられないな"  ]
+[glink  color="black"  storage="scene2.ks"  size="20"  text="頼む……ズボンだけは脱がさないでくれ……！"  target="*頼む……ズボンだけは脱がさないでくれ……！"  ]
 [s  ]
-*成仏
+*その貧相な身体じゃそそられないな
 
-[tb_start_text mode=1 ]
-#少女
-「わたし・・・そんなこと、たのんでない」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*したい！"  ]
-*しごと
-
-[tb_start_text mode=1 ]
-#少女
-「ふーん」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*じゃあなにするの？"  ]
-*したい！
-
-[chara_hide  name="吉野あかり"  time="600"  wait="true"  pos_mode="true"  ]
-[tb_image_show  time="501"  storage="default/250601赤.png"  width="1321"  height="743"  x=""  y=""  _clickable_img=""  name="img_22"  ]
 [tb_start_text mode=1 ]
 #
-っ！！[p]
-心臓のあたりに締め付けられるような強烈な痛みが走る！！[p]
+その言葉を聞いた瞬間、花子さんの顔から全ての表情が抜け落ちた。[p]
+さっきまでの愉悦に歪んだ笑みは跡形もなく消え、血のように赤い瞳があなたを射抜く。[p]
+#花子さん
+「……いま、なんて言ったの？」[p]
+#
+地から響くような低い声。空気が凍りつき、霊圧が凄まじい密度であなたを押し潰す。[p]
+#花子さん
+「身の程を知らない雑魚。なら、お兄さんのはもっと粗末にしてあげる……」[p]
+#
+次の瞬間、あなたの下半身に焼けるような激痛が走った。[p]
+花子さんは指一本動かさず、ただあなたを睨みつけているだけ。[p]
+しかし、あなたの股間は内側から霊力の炎で焼き尽くされ、耐え難い苦痛と共に炭化していく。[p]
+#花子さん
+「あははっ、オスですらなくなっちゃったわね♡」[p]
+#
+絶叫すら許されず、あなたは生きながらにして男でなくなり、その魂ごと砕け散った。[p]
 [_tb_end_text]
 
-[chara_show  name="吉野あかり"  time="1000"  wait="true"  storage="chara/1/上見開き.png"  width="512"  height="1024"  left="380"  top="130"  reflect="false"  ]
+[jump  storage="scene2.ks"  target="*死亡"  ]
+*頼む……ズボンだけは脱がさないでくれ……！
+
 [tb_start_text mode=1 ]
 #
-交渉に失敗したようだ。[p]
-自分の意識が消えていく・・・[p]
+あなたの必死の懇願を聞いた花子さんは、一瞬動きを止める。[p]
+やがて、喉を鳴らしてクツクツと笑い始めた。[p]
+#花子さん
+「へぇ……？　ズボンだけは脱がされたくないんだ？　これ以上、辱められたくないんだ？」[p]
+#
+あなたの言葉をオウム返しにしながら、花子さんは恍惚とした表情を浮かべる。[p]
+あなたの恐怖と屈辱が、彼女にとっては何よりの喜びなのだろう。[p]
+#花子さん
+「ば～か♡　雑魚が『やめて』って言ったら、もっとやりたくなるのが普通でしょ？」[p]
+#
+彼女は勝ち誇ったように笑うと、あなたのベルトに冷たい指をかけた。[p]
+カチャリと金属のバックルが外れる乾いた音が、静まり返ったトイレに響き渡る。[p]
+#花子さん
+「大丈夫だよ、お兄さん。これからもっともっと、いーっぱい辱めてあげるからねぇ……？」[p]
+#
+ゆっくりとジッパーが引き下ろされ、硬く張り詰めたあなたの熱が窮屈な布地を押し上げる。[p]
+その様子を、花子さんは舌なめずりしながら、ねっとりとした視線で観察していた。[p]
 [_tb_end_text]
 
+[chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
+[jump  storage="scene3.ks"  target=""  ]
+*死亡
 [stopbgm  time="2000"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide  name="吉野あかり"  time="1000"  wait="false"  pos_mode="true"  ]
@@ -191,520 +231,3 @@
 [tb_hide_message_window  ]
 [jump  storage="title_screen.ks"  target=""  ]
 [s  ]
-*じゃあなにするの？
-
-[chara_hide  name="吉野あかり"  time="250"  wait="true"  pos_mode="true"  ]
-[chara_show  name="吉野あかり"  time="250"  wait="true"  storage="chara/1/真顔.png"  width="512"  height="1024"  left="380"  top="130"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#少女
-「じゃあなにするの？」[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#
-ひとまず会話できた。[p]
-機嫌を損ねないように、[r]心をひらかせHして成仏させよう。[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="君の話が聞きたい"  target="*話が聞きたい"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="君のやりたいことは？"  target="*君のやりたいことは？"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  autopos="true"  text="まずは名前を教えて"  target="*自己紹介"  ]
-[s  ]
-*君のやりたいことは？
-
-[tb_start_text mode=1 ]
-#少女
-「やりたいこと・・・[r]生きてるひとをころしたいかな」[p]
-「こんなふうに」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*したい！"  ]
-*話が聞きたい
-
-[tb_start_text mode=1 ]
-#少女
-「わたしの・・・はなし？」[p]
-「そういわれても・・・あ、なまえなら」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*自己紹介"  ]
-*自己紹介
-
-[tb_start_text mode=1 ]
-#少女
-「えーと」[p]
-「・・・あかり」[p]
-「たしか、私の名前は[font color=0x00fa9a]吉野あかり[font color=0xffffffff]」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/訝しみ.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「なんで死んだのかとか、生きてるときどうだったのかとか」[p]
-「あまりおぼえてないかな」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="そうか"  target="*そうか"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="いまは？"  target="*いま"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="・・・"  target="*そうか"  ]
-[s  ]
-*そうか
-
-[tb_start_text mode=1 ]
-#あかり
-「でもね、意思っていうか・・・[r]やりたいことはあるの」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐先１"  ]
-*いま
-
-[tb_start_text mode=1 ]
-#あかり
-「いまは・・・そうだね・・・」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐先１"  ]
-*基本分岐先１
-
-[tb_start_text mode=1 ]
-#あかり
-「・・・・・・」[p]
-「いきてる人間・・・きらい」[p]
-「ころしたい」[p]
-「・・・あなたも」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="勘弁してくれ"  target="*基本分岐先２"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="まだ死にたくない"  target="*基本分岐先２"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="自分の命だけは・・・"  target="*命だけは"  ]
-[s  ]
-*命だけは
-
-[tb_start_text mode=1 ]
-#あかり
-「他人の命は別にいいってこと？」[p]
-[_tb_end_text]
-
-*基本分岐先２
-
-[tb_start_text mode=1 ]
-#あかり
-「うーん・・・どうしようかな」[p]
-「・・・・・・」[p]
-「なら・・・」[p]
-「あなたは学校ってすき？」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="すきだ"  target="*すきだ"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="きらいだ"  target="*きらいだ"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="あまり行ってない"  target="*あまり行ってない"  ]
-[s  ]
-*すきだ
-
-[tb_start_text mode=1 ]
-#あかり
-「そう・・・[r]よかったね」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐３"  ]
-*きらいだ
-
-[tb_start_text mode=1 ]
-#あかり
-「へー・・・」[p]
-「なんでなのかな・・・」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐３"  ]
-*あまり行ってない
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/笑顔.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「あは、だめなんだ・・・」[p]
-「学校はね・・・[r]行かなきゃいけないんだよ」[p]
-[_tb_end_text]
-
-*基本分岐３
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「私はね・・・」[p]
-「学校はきらい・・・だと思う」[p]
-「この学校にいるとね[r]たのしそうな人、たくさんいるの」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/訝しみ.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「見てるとイライラする」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「なんでかな・・・」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="嫉妬してるのか？"  target="*嫉妬"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="ここから出ていけば？"  target="*出れば？"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="学校に未練がある？"  target="*学校に未練？"  ]
-[s  ]
-*嫉妬
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/訝しみ口開け.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「お説教したいの？」[p]
-「生きてるときのこと・・・あまりおぼえてないって[r]いったのに・・・」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐４"  ]
-*出れば？
-
-[tb_start_text mode=1 ]
-#あかり
-「やだよ」[p]
-「ぜったいやだ」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐４"  ]
-*学校に未練？
-
-[tb_start_text mode=1 ]
-#あかり
-「未練・・・」[p]
-「わからない」[p]
-「未練があるから、わたしはここにいるの？」[p]
-[_tb_end_text]
-
-*基本分岐４
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「・・・」[p]
-「あなたを殺したらどうなるのかな」[p]
-「しゃべらなくなるだけかな」[p]
-「それとも私と同じようになるのかな・・・」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/笑顔.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「試してみたい」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="こんなところで死にたくない！"  target="*死にたくない"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="まだ恋人もいないのに・・・"  target="*恋人もいないのに"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="消えるのはお前のほうだ"  target="*消えるのはお前のほうだ"  ]
-[s  ]
-*死にたくない
-
-[tb_start_text mode=1 ]
-#あかり
-「・・・ふふふ」[p]
-「その顔、いいよ[r]もっと命乞いしてみて・・・！」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="やだやだやだやだ！死にたくない！"  target="*やだやだ"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="自分が死んだら悲しむ人がいる"  target="*悲しむ人が"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="青春したい人生だった・・・"  target="*青春したかった"  ]
-[s  ]
-*やだやだ
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/見下し.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「・・・きもちわるい」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*したい！"  ]
-*悲しむ人が
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/訝しみ.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「それはよかったね」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*したい！"  ]
-*青春したかった
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔口開け.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「・・・・・・」[p]
-「青春か・・・」[p]
-「なんでだろう・・・ちょっとかわいそうって思えた」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐５"  ]
-*恋人もいないのに
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔口開け.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「・・・・・・」[p]
-「本当にさみしそうな顔だね」[p]
-「でも・・・なんかわかる・・・かも」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐５"  ]
-*消えるのはお前のほうだ
-
-[tb_start_text mode=1 ]
-#
-このままでは殺されてしまう・・・！[p]
-やられる前にやってやる！！[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*したい！"  ]
-*基本分岐５
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="同じ経験があるんじゃないか？"  target="*基本分岐６"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="生前の記憶に関係あるのでは？"  target="*基本分岐６"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="君も同じだったからだ"  target="*基本分岐６"  ]
-[s  ]
-*基本分岐６
-
-[tb_start_text mode=1 ]
-#あかり
-「・・・・・・」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/困惑口開け.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「そっか・・・・・・」[p]
-「そうだった、[r]だんだん思い出してきた」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/訝しみ.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「私は・・・あんまり学校いけなかったんだ。[r]からだが弱くてよく病院に通ってたっけ・・・」[p]
-「だから学校も休みがちで、[r]友達ができなかった・・・恋人も」[p]
-「私もみんなみたいに、ふつうに青春したいって思ってた。」[p]
-「けど、そっか・・・[r]そんなことできず途中で死んじゃったんだね・・・私」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="それで成仏できなかったのか・・・"  target="*基本分岐７"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="大変だったな"  target="*基本分岐７"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="・・・・・・"  target="*基本分岐７"  ]
-[s  ]
-*基本分岐７
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「そう・・・」[p]
-「だから私はいきてる人間、[r]たのしそうに学校に通っている人間が憎い」[p]
-「殺したいって思うのは当然なの」[p]
-「仕方のないこと・・・」[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#あかり
-「どうやっても取り戻せないんだから、[r]憂さ晴らしするしかないじゃん・・・」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="もうやめろ"  target="*やめろ"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="いまからでも取り戻そう"  target="*取り戻そう"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="そんなことは許さない"  target="*許さない"  ]
-[s  ]
-*やめろ
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/上見開き口開け.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「・・・うるさい[r]あなたのことも殺したいって言ったの忘れた？」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔.png"  ]
-[jump  storage="scene2.ks"  target="*告白分岐へ"  ]
-*許さない
-
-[tb_start_text mode=1 ]
-#あかり
-「だったらどうするの？[r]あなたは私をどうにかできるの・・・？」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*告白分岐へ"  ]
-*取り戻そう
-
-[tb_start_text mode=1 ]
-#あかり
-「むりだよ[r]もうしんでるんだから」[p]
-[_tb_end_text]
-
-*告白分岐へ
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="よければ自分と付き合ってくれ"  target="*基本分岐８"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="自分が恋人になる"  target="*基本分岐８"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="ふたりで恋しよう"  target="*基本分岐８"  ]
-[s  ]
-*基本分岐８
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/目見開き.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「それ・・・どういう・・・」[p]
-[_tb_end_text]
-
-[wait  time="1000"  ]
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/目見開き赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「・・・・・・」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/訝しみ赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「あなたが私の恋人になるってこと？[r]なんでそんなこと・・・」[p]
-「イヤに決まってるじゃん・・・」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/見下し口開け.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「殺されたいの・・・？」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="はじめからかわいいと思っていた"  target="*かわいい"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="好きだ"  target="*好きだ"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="付き合ってくれたら死んでもいい"  target="*死んでもいい"  ]
-[s  ]
-*かわいい
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/上見開き口開け赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「な・・・なにいってんの・・・！！[r]そんなわけないじゃん！！」[p]
-「こんな暗いやつ、[r]か、かわいい・・・とか」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「おかしんじゃない・・・？」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐９"  ]
-*好きだ
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/上見開き口開け赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「な・・・」[p]
-「・・・・・・」[p]
-「なにまっすぐ・・・言ってくれてんの・・・！！」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/困惑赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「うぅ・・・」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐９"  ]
-*死んでもいい
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/上見開き口開け赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「へー！！じゃあ殺してあげる！！[r]殺すから！！」[p]
-「・・・って」[p]
-[_tb_end_text]
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/困惑口開け赤.png"  ]
-[tb_start_text mode=1 ]
-#あかり
-「え？[r]殺すってことは付き合うってことになるの？」[p]
-「・・・？あれ？[r]それってそういうこと・・・なの？」[p]
-[_tb_end_text]
-
-*基本分岐９
-
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/真顔赤.png"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="そっと手を握る"  target="*そっと手を握る"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="そっと抱き寄せる"  target="*そっと抱き寄せる"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="押し倒す"  target="*押し倒す"  ]
-[s  ]
-*そっと手を握る
-
-[tb_start_text mode=1 ]
-#あかり
-「・・・・・・」[p]
-#
-ゆっくりと手を握り返された。[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐１０"  ]
-*そっと抱き寄せる
-
-[tb_start_text mode=1 ]
-#あかり
-「な、な・・・なにを・・・！！」[p]
-「・・・・・・」[p]
-[_tb_end_text]
-
-[jump  storage="scene2.ks"  target="*基本分岐１０"  ]
-*押し倒す
-
-[tb_image_show  time="1000"  storage="default/250601メモ.png"  width="1920"  height="1080"  ]
-[tb_start_text mode=1 ]
-#
-あかりを押し倒そうとした！[p]
-しかし逆に押し倒されてしまった！[p]
-#あかり
-「・・・わかった」[p]
-「そんなに私のことすきなら・・・いいよ」[p]
-[_tb_end_text]
-
-[chara_hide  name="吉野あかり"  time="0"  wait="true"  pos_mode="true"  ]
-[jump  storage="scene3.ks"  target=""  ]
-*基本分岐１０
-
-[tb_start_text mode=1 ]
-#あかり
-「わかった・・・」[p]
-「・・・いいよ[r]恋人、なってあげる」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="ありがとう"  target="*基本分岐１１"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="うれしい"  target="*基本分岐１１"  ]
-[s  ]
-*基本分岐１１
-
-[tb_start_text mode=1 ]
-#あかり
-「うん」[p]
-「でも、わかってる」[p]
-「これがいつまでも続く関係じゃないこと」[p]
-「だから・・・さ」[p]
-「・・・・・・」[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#あかり
-「ちょっと段階を飛ばして・・・[r]いちばん深いところから始めたいな」[p]
-「・・・なんて」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene2.ks"  size="20"  text="わかった"  target="*基本分岐１２"  ]
-[glink  color="black"  storage="scene2.ks"  size="20"  text="うなずく"  target="*基本分岐１２"  ]
-[s  ]
-*基本分岐１２
-
-[tb_start_text mode=1 ]
-#あかり
-「やさしくしてね・・・」[p]
-[_tb_end_text]
-
-[chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
-[jump  storage="scene3.ks"  target=""  ]
