@@ -2,7 +2,7 @@
 
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="図書室（夜・照明OFF）.png"  ]
-[chara_show  name="吉野あかり"  time="0"  wait="true"  storage="chara/1/真顔赤.png"  width="1094"  height="2186"  left="103"  top="-115"  reflect="false"  ]
+[chara_show  name="花子さん"  time="0"  wait="true"  storage="chara/1/Blush.png"  width="1094"  height="2186"  left="103"  top="-115"  reflect="false"  ]
 [mask_off  time="3000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #あかり
@@ -10,7 +10,7 @@
 「すごく・・・き、気持ち・・・よかった」[p]
 [_tb_end_text]
 
-[chara_mod  name="吉野あかり"  time="0"  cross="true"  storage="chara/1/すっきり笑顔赤.png"  ]
+[chara_mod  name="花子さん"  time="0"  cross="true"  storage="chara/1/BlushSmile.png"  ]
 [tb_start_text mode=1 ]
 #あかり
 「これで・・・やっといける」[p]
@@ -20,7 +20,7 @@
 [_tb_end_text]
 
 [mask  time="1500"  effect="fadeIn"  color="0xffffff"  ]
-[chara_hide  name="吉野あかり"  time="0"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="花子さん"  time="0"  wait="true"  pos_mode="true"  ]
 [mask_off  time="1500"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #

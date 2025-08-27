@@ -37,7 +37,7 @@
 金縛りにあったかのように指一本動かせない。[p]
 [_tb_end_text]
 
-[chara_show  name="吉野あかり"  time="3000"  wait="false"  storage="chara/1/真顔青.png"  width="200"  height="400"  left="460"  top="237"  reflect="false"  ]
+[chara_show  name="花子さん"  time="3000"  wait="false"  storage="chara/1/Normal.png"  width="200"  height="400"  left="460"  top="237"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 霞む視界の中、ゆっくりと扉が開く。[p]
@@ -58,8 +58,8 @@
 [s  ]
 *君を浄化しに来た
 
-[chara_hide  name="吉野あかり"  time="600"  wait="true"  pos_mode="true"  ]
-[chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
+[chara_hide  name="花子さん"  time="600"  wait="true"  pos_mode="true"  ]
+[chara_show  name="花子さん"  time="200"  wait="true"  storage="chara/1/BigSmile.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 
 [tb_start_text mode=1 ]
 #花子さん
@@ -78,6 +78,7 @@
 まるで抗えない。圧倒的な力の差を、あなたは実感させられる。[p]
 #花子さん
 「ねぇ、どんな気分？　自分が雑魚だって自覚した気分はどう？」[p]
+#
 次の瞬間、あなたの意識はそこで途絶えた。[p]
 [_tb_end_text]
 
@@ -115,8 +116,8 @@
 
 *ルート61
 
-[chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
-[chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
+[chara_hide  name="花子さん"  time="200"  wait="true"  pos_mode="true"  ]
+[chara_show  name="花子さん"  time="200"  wait="true"  storage="chara/1/Smile.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 
 [tb_start_text mode=1 ]
 #
@@ -137,8 +138,8 @@
 [s  ]
 *お前の裸が見たい
 
-[chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
-[chara_show  name="吉野あかり"  time="200"  wait="true"  storage="chara/1/笑顔.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
+[chara_hide  name="花子さん"  time="200"  wait="true"  pos_mode="true"  ]
+[chara_show  name="花子さん"  time="200"  wait="true"  storage="chara/1/Angry.png"  width="1024"  height="2048"  left="130"  top="-100"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #花子さん
 「は？　……きっしょ。死ねば？」[p]
@@ -220,12 +221,12 @@
 その様子を、花子さんは舌なめずりしながら、ねっとりとした視線で観察していた。[p]
 [_tb_end_text]
 
-[chara_hide  name="吉野あかり"  time="200"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="花子さん"  time="200"  wait="true"  pos_mode="true"  ]
 [jump  storage="scene3.ks"  target=""  ]
 *死亡
 [stopbgm  time="2000"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide  name="吉野あかり"  time="1000"  wait="false"  pos_mode="true"  ]
+[chara_hide  name="花子さん"  time="1000"  wait="false"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
 [cm  ]
 [tb_hide_message_window  ]

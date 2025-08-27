@@ -2,7 +2,7 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="0"  ]
-[chara_show  name="あかりHシーン"  time="0"  wait="true"  storage="chara/2/薄笑い汗無し.png"  width="1297"  height="728"  left=""  top=""  reflect="false"  ]
+[chara_show  name="えっちシーン"  time="0"  wait="true"  storage="chara/2/Normal.png"  width="1297"  height="728"  left=""  top=""  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="挿入音２★.mp3"  ]
 [tb_show_message_window  ]
@@ -19,6 +19,11 @@
 彼女は挑発するように腰をくねらせると、倒したあなたの腹の上にゆっくりと跨ってきた。[p]
 #花子さん
 「雑魚の分際でわたしの〝中〟に入れるんだから……光栄に思いなさいよねぇ？」[p]
+[_tb_end_text]
+
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/Insert.png"  ]
+
+[tb_start_text mode=1 ]
 #
 ねっとりとした粘液をこすりつけながら、割れ目があなたの亀頭をゆっくりと含んでいく。[p]
 冷たいタイルとは対照的な、焼けるように熱い肉壁がじわじわとあなたのチンポを飲み込んでいく。[p]
@@ -44,6 +49,8 @@
 [s  ]
 *気持ちいい遊びだな
 
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/Blush.png"  ]
+
 [tb_start_text mode=1 ]
 #
 先程まで自分が使っていた言葉をそのまま返され、花子さんの顔が屈辱に朱く染まった。[p]
@@ -56,6 +63,8 @@
 
 [jump  storage="scene3.ks"  target="*ルート147"  ]
 *このまま浄化してやる
+
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/Blush.png"  ]
 
 [tb_start_text mode=1 ]
 #
@@ -86,7 +95,8 @@
 *ルート147
 
 [playse  volume="100"  time="1000"  buf="0"  loop="true"  storage="種付けピストン１.mp3"  ]
-[chara_mod  name="あかりHシーン"  time="0"  cross="true"  storage="chara/2/薄笑い汗あり.png"  ]
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/Finish.png"  ]
+
 [tb_start_text mode=1 ]
 #花子さん
 「あっ、んぅうッ♡　や、やめ……！　そんな、奥まで、ついたら……わたし……っ！」[p]
@@ -103,7 +113,7 @@
 
 [stopse  time="1000"  buf="0"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="種付けピストン７.mp3"  loop="true"  ]
-[chara_mod  name="あかりHシーン"  time="0"  cross="true"  storage="chara/2/薄笑い紅潮.png"  ]
+
 [tb_start_text mode=1 ]
 #
 あなたの肉棒を締め付ける彼女の内壁は、正直に悦びを伝えていた。[p]
@@ -184,6 +194,7 @@
 
 [stopse  time="1000"  buf="0"  ]
 [playse  volume="100"  time="1000"  buf="0"  loop="true"  storage="種付けピストン１６.mp3"  ]
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/FinishPlus.png"  ]
 [tb_start_text mode=1 ]
 #花子さん
 「あ…ぁ…ああああッ！♡♡♡」[p]
@@ -207,7 +218,7 @@
 ぐったりしていたはずの花子さんの腕が、あなたの首に強く回される……！[p]
 [_tb_end_text]
 
-[chara_mod  name="あかりHシーン"  time="0"  cross="true"  storage="chara/2/アヘ顔.png"  ]
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/Insert.png"  ]
 [tb_start_text mode=1 ]
 #花子さん
 「――あはっ♡　ばぁか。油断しすぎだよ、お兄さん」[p]
@@ -273,6 +284,10 @@
 萎びていたはずの肉棒がさっき以上に膨れ上がり、内壁をはち切れんばかりに押し広げている。[p]
 そして最後の力を込めた渾身の一撃が、無慈悲に彼女の子宮を穿った。[p]
 ゴッ！！！[p]
+[_tb_end_text]
+
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/FinishPlus.png"  ]
+[tb_start_text mode=1 ]
 #花子さん
 「んぐぅううううううッッ♡♡♡！？」[p]
 #
@@ -335,7 +350,7 @@
 [mask_off  time="500"  effect="fadeOut"  ]
 [mask  time="500"  effect="fadeIn"  color="0xffffff"  ]
 [mask_off  time="1500"  effect="fadeOut"  ]
-[chara_mod  name="あかりHシーン"  time="0"  cross="true"  storage="chara/2/薄笑い紅潮.png"  ]
+[chara_mod  name="えっちシーン"  time="0"  cross="true"  storage="chara/2/Blush.png"  ]
 
 [tb_start_text mode=1 ]
 #花子さん
@@ -348,5 +363,5 @@
 [_tb_end_text]
 
 [mask  time="3000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide  name="あかりHシーン"  time="0"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="えっちシーン"  time="0"  wait="true"  pos_mode="true"  ]
 [jump  storage="scene4.ks"  target=""  ]
